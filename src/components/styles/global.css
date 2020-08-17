@@ -8,6 +8,7 @@
 --pink-light:#F790DD;
 --white: #F9F3F9;
 --yellow: #F1FF18;
+font-size: 10px;
 }
 
 * {
@@ -19,10 +20,13 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size: 10px;
   line-height: 1.7;
   color: #000000;
-  padding: 30px;
   background:linear-gradient(var(--purple-dark),var(--pink-light));
   background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 1366px;
+  margin: 0 auto;
 }

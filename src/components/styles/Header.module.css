@@ -1,0 +1,24 @@
+.Nav {
+  background-color: white;
+  font-size: 2.4rem;
+  padding: 0.8rem;
+  height: 70px;
+  position: relative;
+}
+
+.Nav ul {
+  list-style: none;
+  display: flex;
+  height: 100%;
+}
+
+.Nav ul li {
+  margin-left: 1.6rem;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.6rem;
+}

@@ -1,15 +1,20 @@
-import React, { Fragment } from "react"
+import React from "react"
 import { PropTypes } from "prop-types"
-import "./styles/global.css"
+import "./styles/global.css";
+import Styles from './styles/Layout.module.css';
+import Header from './Header';
 
-const Layout = ({ children }) => {
-  return (
-    <Fragment>
-      <h1>This is header</h1>
+class Layout extends React.Component {
+  render() {
+    let {children} = this.props;
+    return(
+    <div className={Styles.Layout}>
+      <Header />
       {children}
       <h1>This is footer</h1>
-    </Fragment>
-  )
+    </div>
+    )
+  }
 }
 
 Layout.propTypes = {
