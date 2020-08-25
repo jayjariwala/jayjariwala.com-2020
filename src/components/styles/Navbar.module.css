@@ -1,0 +1,52 @@
+.Nav {
+  background-color: white;
+  font-size: 2.4rem;
+  padding: 0.8rem;
+  height: 70px;
+  position: relative;
+  border-radius: 2px;
+}
+
+.Nav ul {
+  list-style: none;
+  display: flex;
+  height: 100%;
+}
+
+.Nav ul li {
+  margin-left: 1.6rem;
+  text-decoration: underline;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -0.8rem;
+}
+
+.Logo {
+  display: inline;
+}
+
+.mobileLogo {
+  display: none;
+}
+
+/* Small devices */
+@media only screen and (max-width: 600px) {
+  .Logo {
+    display: none;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* .Logo {
+    display: none;
+  } */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}

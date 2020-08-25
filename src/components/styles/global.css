@@ -1,14 +1,16 @@
+@value breakpoints: "./breakpoint.css";
+@value largest from breakpoints;
+
 /** Universal Reset **/
 :root {
---black: #000000;
---purple-dark:#A015F8;
---purple-light:#CC38EE;
---blue:#5B0FE9;
---pink-dark:#F160EC;
---pink-light:#F790DD;
---white: #F9F3F9;
---yellow: #F1FF18;
-font-size: 10px;
+  --black: #000000;
+  --purple-dark: #a015f8;
+  --purple-light: #cc38ee;
+  --blue: #5b0fe9;
+  --pink-dark: #f160ec;
+  --pink-light: #f790dd;
+  --white: #f9f3f9;
+  --yellow: #f1ff18;
 }
 
 * {
@@ -17,12 +19,22 @@ font-size: 10px;
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
+@media only screen and (max-width: largest) {
+  html {
+    font-size: 50%;
+  }
+}
+
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   line-height: 1.7;
   color: #000000;
-  background:linear-gradient(var(--purple-dark),var(--pink-light));
+  background: linear-gradient(var(--purple-dark), var(--pink-light));
   background-repeat: no-repeat;
 }
 
