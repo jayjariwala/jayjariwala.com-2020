@@ -1,8 +1,13 @@
+@value breakpoints: "./breakpoint.css";
+@value largest, small, medium from breakpoints;
+
 .Nav {
   background-color: white;
   font-size: 2.4rem;
-  padding: 0.8rem;
-  height: 70px;
+  /* padding: 0.2rem; */
+  padding-left: 1rem;
+  padding-right: 1rem;
+  /* padding-top: 1rem; */
   position: relative;
   border-radius: 2px;
 }
@@ -34,9 +39,17 @@
 }
 
 /* Small devices */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: medium) {
   .Logo {
     display: none;
+  }
+
+  .mobileLogo {
+    display: block;
+  }
+
+  .navLinks {
+    flex-flow: column;
   }
 }
 
