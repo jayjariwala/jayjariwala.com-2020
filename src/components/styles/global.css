@@ -37,8 +37,3 @@ body {
   background: linear-gradient(var(--purple-dark), var(--pink-light));
   background-repeat: no-repeat;
 }
-
-.container {
-  max-width: 1366px;
-  margin: 0 auto;
-}

@@ -6,11 +6,11 @@ import mobileLogo from "../assets/images/mobile-logo.png"
 const Header = props => {
   return (
     <nav className={Styles.Nav}>
-      <div className="container">
+      <div className={Styles.Container}>
         <div className={Styles.navLinks}>
-          <a href="">
+          <a href="#">
             <img src={logo} width="180px" className={Styles.Logo} />
-            <img src={mobileLogo} width="80px" className={Styles.mobileLogo} />
+            <img src={mobileLogo} width="100px" className={Styles.mobileLogo} />
           </a>
           <ul>
             <li>Home</li>

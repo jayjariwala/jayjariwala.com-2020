@@ -4,12 +4,18 @@
 .Nav {
   background-color: white;
   font-size: 2.4rem;
-  /* padding: 0.2rem; */
-  padding-left: 1rem;
-  padding-right: 1rem;
-  /* padding-top: 1rem; */
   position: relative;
   border-radius: 2px;
+}
+
+.Container {
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0.6rem;
+}
+
+.Nav a {
+  display: inherit;
 }
 
 .Nav ul {
@@ -51,15 +57,12 @@
   .navLinks {
     flex-flow: column;
   }
-}
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  /* .Logo {
-    display: none;
-  } */
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+  .Container {
+    padding: 2rem;
+  }
+  .Nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
 }
