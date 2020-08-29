@@ -40,6 +40,10 @@
   display: inline;
 }
 
+.mobileNav {
+  display: none;
+}
+
 .mobileLogo {
   display: none;
 }
@@ -48,6 +52,13 @@
 @media only screen and (max-width: medium) {
   .Logo {
     display: none;
+  }
+
+  .mobileNav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .mobileLogo {
