@@ -24,11 +24,31 @@ const Header = props => {
             <FontAwesomeIcon icon={faBars} size="2x" />
           </div>
           <ul>
-            <li>Home</li>
-            <li>Projects</li>
-            <li>Certifications</li>
-            <li>Blog</li>
-            <li>About</li>
+            <li>
+              <a href="#" className={`${Styles.Underline}`}>
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#" className={`${Styles.Underline}`}>
+                Projects
+              </a>
+            </li>
+            <li>
+              <a href="#" className={`${Styles.Underline}`}>
+                Certifications
+              </a>
+            </li>
+            <li>
+              <a href="#" className={`${Styles.Underline}`}>
+                Blog
+              </a>
+            </li>
+            <li>
+              <a href="#" className={`${Styles.Underline}`}>
+                About
+              </a>
+            </li>
           </ul>
         </div>
       </div>
