@@ -8,11 +8,6 @@
   border-radius: 2px;
 }
 
-.Container {
-  max-width: 1366px;
-  margin: 0 auto;
-}
-
 .Nav a {
   font-weight: bold;
   text-transform: uppercase;

@@ -1,0 +1,28 @@
+.Hero {
+  background: var(--white);
+  height: 800px;
+}
+
+.Avatar {
+  margin-top: 55px;
+  border-radius: 50%;
+  box-shadow: 10px 1px 50px rgba(0, 0, 0, 0.3);
+}
+
+.Introduction {
+  margin-top: 20px;
+}
+
+.Hi {
+  font-size: 3.2rem;
+  color: var(--grey);
+  font-style: italic;
+}
+
+.WhoAmI {
+  padding: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 3.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+}

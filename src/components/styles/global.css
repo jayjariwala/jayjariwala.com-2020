@@ -38,3 +38,7 @@ body {
   background: linear-gradient(var(--purple-dark), var(--pink-light));
   background-repeat: no-repeat;
 }
+
+.text-center {
+  text-align: center;
+}

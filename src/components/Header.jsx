@@ -1,5 +1,6 @@
 import React from "react"
 import Styles from "./styles/Navbar.module.css"
+import Container from "./styles/Container.module.css"
 import logo from "../assets/images/logo.png"
 import mobileLogo from "../assets/images/mobile-logo.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
@@ -8,7 +9,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons"
 const Header = props => {
   return (
     <nav className={Styles.Nav}>
-      <div className={Styles.Container}>
+      <div className={Container.Large}>
         <div className={Styles.navLinks}>
           <a href="#">
             <img src={logo} width="180px" className={Styles.Logo} />
