@@ -1,6 +1,7 @@
 .Hero {
   background: var(--white);
   height: 800px;
+  padding: 10px;
 }
 
 .Avatar {

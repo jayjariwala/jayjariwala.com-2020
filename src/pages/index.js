@@ -2,6 +2,7 @@ import React, { Fragment } from "react"
 import Layout from "../components/Layout"
 import heroStyle from "../components/styles/Hero.module.css"
 import containerStyle from "../components/styles/Container.module.css"
+import Buttons from "../components/styles/Button.module.css"
 import Avatar from "../assets/images/avatar.png"
 
 export default function Home() {
@@ -28,9 +29,12 @@ export default function Home() {
               Skating. I like to roam around in nature, working out at the gym,
               and taking pictures using my DSLR.
             </p>
+            <button className={Buttons.Btn}>Get in Touch</button>
+            <button>Resume</button>
           </div>
         </div>
       </div>
+      <div>askdnaklndnaslndslakn/</div>
     </Layout>
   )
 }

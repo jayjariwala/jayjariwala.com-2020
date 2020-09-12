@@ -60,9 +60,20 @@
 }
 
 /* Small devices */
+
 @media only screen and (max-width: medium) {
+  .Nav ul li {
+    padding: 8px;
+  }
+}
+
+@media only screen and (max-width: small) {
   .Logo {
     display: none;
+  }
+
+  .Nav {
+    padding: 10px;
   }
 
   .mobileNav {
