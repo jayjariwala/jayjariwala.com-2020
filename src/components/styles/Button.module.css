@@ -1,6 +1,33 @@
+@value breakpoints: "./breakpoint.css";
+@value largest, small, medium from breakpoints;
+
 .Btn {
-  padding: 10px;
+  border-radius: 2px;
+  border: none;
+  box-shadow: 2px 2px 5px 0px #ccc;
+  font-size: 1.6rem;
 }
 
 .Btn_lg {
+  height: 35px;
+  min-width: 250px;
+}
+
+.Btn_primary {
+  background: linear-gradient(var(--purple-dark), var(--purple-light));
+  color: var(--white);
+}
+
+@media only screen and (max-width: medium) {
+  .Btn_lg {
+    height: 30px;
+    min-width: 200px;
+  }
+}
+
+@media only screen and (max-width: small) {
+  .Btn_lg {
+    height: 28px;
+    min-width: 190px;
+  }
 }

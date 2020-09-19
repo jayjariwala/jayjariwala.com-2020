@@ -27,3 +27,11 @@
   max-width: 700px;
   margin: 0 auto;
 }
+
+.Introduction button {
+  text-transform: uppercase;
+}
+
+.Introduction button:last-child {
+  margin-left: 30px;
+}
