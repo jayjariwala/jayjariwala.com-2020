@@ -5,6 +5,7 @@ import containerStyle from "../components/styles/Container.module.css"
 import marginStyle from "../components/styles/Margin.module.css"
 import Buttons from "../components/styles/Button.module.css"
 import Avatar from "../assets/images/avatar.png"
+import Section1 from "../assets/images/section-1.png"
 
 export default function Home() {
   return (
@@ -43,7 +44,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className={heroStyle.Section1}>askdnaklndnaslndslakn/</div>
+      <div className={`${heroStyle.Section1} ${heroStyle.Technologies}`}>
+        <h2>I love working with cutting edge technolgies</h2>
+        <p className={marginStyle.M2}>Things I am good at...</p>
+      </div>
     </Layout>
   )
 }
