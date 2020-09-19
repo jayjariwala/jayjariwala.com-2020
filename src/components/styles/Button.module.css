@@ -27,7 +27,7 @@
 
 @media only screen and (max-width: small) {
   .Btn_lg {
-    height: 28px;
-    min-width: 190px;
+    height: 25px;
+    min-width: 150px;
   }
 }

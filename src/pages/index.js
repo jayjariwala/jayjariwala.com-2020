@@ -11,7 +11,7 @@ export default function Home() {
     <Layout>
       <div className={heroStyle.Hero}>
         <div className={`${containerStyle.Medium} text-center`}>
-          <img className={heroStyle.Avatar} src={Avatar} width="180px" />
+          <img className={heroStyle.Avatar} src={Avatar} width="160px" />
           <div className={heroStyle.Introduction}>
             <p className={heroStyle.Hi}>Hey! I'm Jay</p>
             <h1 className={heroStyle.WhoAmI}>
@@ -43,7 +43,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div>askdnaklndnaslndslakn/</div>
+      <div className={heroStyle.Section1}>askdnaklndnaslndslakn/</div>
     </Layout>
   )
 }

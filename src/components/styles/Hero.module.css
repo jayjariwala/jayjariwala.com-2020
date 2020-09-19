@@ -1,17 +1,18 @@
 .Hero {
   background: var(--white);
-  height: 800px;
-  padding: 10px;
+  padding: 40px 10px;
+  position: relative;
+  z-index: 10;
 }
 
 .Avatar {
-  margin-top: 55px;
+  margin-top: 2.5rem;
   border-radius: 50%;
   box-shadow: 10px 1px 50px rgba(0, 0, 0, 0.3);
 }
 
 .Introduction {
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 
 .Hi {
@@ -33,5 +34,13 @@
 }
 
 .Introduction button:last-child {
-  margin-left: 30px;
+  margin-left: 3rem;
+}
+
+.Section1 {
+  position: relative;
+  z-index: 0;
+  height: 100%;
+  background-color: #fff;
+  top: -250px;
 }
