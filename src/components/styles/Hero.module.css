@@ -46,7 +46,7 @@
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
-  padding-top: 4rem;
+  padding-top: 6rem;
   color: var(--white);
   border: none;
 }
@@ -57,4 +57,18 @@
 }
 
 .Technologies {
+  position: relative;
+  top: -90px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-items: center;
+}
+
+.Card {
+  flex: 1 0 100px;
+  box-sizing: border-box;
+  margin: 1rem 0.25em;
+  background: var(--white);
 }

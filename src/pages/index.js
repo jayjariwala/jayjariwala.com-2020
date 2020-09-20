@@ -44,10 +44,16 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className={`${heroStyle.Section1} ${heroStyle.Technologies}`}>
+      <div className={`${heroStyle.Section1} `}>
         <h2>I love working with cutting edge technolgies</h2>
         <p className={marginStyle.M2}>Things I am good at...</p>
       </div>
+      <div className={`${heroStyle.Technologies} ${containerStyle.Medium}`}>
+        <div className={heroStyle.Card}>Card 1</div>
+        <div className={heroStyle.Card}>Card 2</div>
+        <div className={heroStyle.Card}>Card 3</div>
+      </div>
+      <div>This is section 2</div>
     </Layout>
   )
 }
