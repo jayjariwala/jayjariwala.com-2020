@@ -57,7 +57,9 @@ export default function Home() {
       </div>
       <div className={`${heroStyle.Technologies} ${containerStyle.Medium}`}>
         <div className={heroStyle.Card}>
-          <FontAwesomeIcon icon={faGem} size="3x" />
+          <div className={heroStyle.Round}>
+            <FontAwesomeIcon icon={faGem} size="2x" />
+          </div>
           <h3>UI Design</h3>
           <p>
             I love beautiful interfaces with great typography and vibrant
@@ -66,7 +68,9 @@ export default function Home() {
           </p>
         </div>
         <div className={heroStyle.Card}>
-          <FontAwesomeIcon icon={faPaintBrush} size="3x" />
+          <div className={heroStyle.Round}>
+            <FontAwesomeIcon icon={faPaintBrush} size="2x" />
+          </div>
           <h3>Websites & SPAs</h3>
           <p>
             I develop pixel perfect, cross browser compatible, and responsive
@@ -75,8 +79,10 @@ export default function Home() {
           </p>
         </div>
         <div className={heroStyle.Card}>
-          <FontAwesomeIcon icon={faDatabase} size="3x" />
-          <h3>Microservices & Hoisting</h3>
+          <div className={heroStyle.Round}>
+            <FontAwesomeIcon icon={faDatabase} size="2x" />
+          </div>
+          <h3>Backend Microservices & API</h3>
           <p>
             I create REST API & Microservices using NodeJS, ExpressJS and
             MongoDB database. I host application in production using Digital
