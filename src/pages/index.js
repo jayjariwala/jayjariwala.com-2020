@@ -1,8 +1,15 @@
 import React, { Fragment } from "react"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import {
+  faGem,
+  faPaintBrush,
+  faDatabase,
+} from "@fortawesome/free-solid-svg-icons"
 import Layout from "../components/Layout"
 import heroStyle from "../components/styles/Hero.module.css"
 import containerStyle from "../components/styles/Container.module.css"
 import marginStyle from "../components/styles/Margin.module.css"
+import GridStyle from "../components/styles/Grid.module.css"
 import Buttons from "../components/styles/Button.module.css"
 import Avatar from "../assets/images/avatar.png"
 import Section1 from "../assets/images/section-1.png"
@@ -49,9 +56,33 @@ export default function Home() {
         <p className={marginStyle.M2}>Things I am good at...</p>
       </div>
       <div className={`${heroStyle.Technologies} ${containerStyle.Medium}`}>
-        <div className={heroStyle.Card}>Card 1</div>
-        <div className={heroStyle.Card}>Card 2</div>
-        <div className={heroStyle.Card}>Card 3</div>
+        <div className={heroStyle.Card}>
+          <FontAwesomeIcon icon={faGem} size="3x" />
+          <h3>UI Design</h3>
+          <p>
+            I love beautiful interfaces with great typography and vibrant
+            colors. I design websites and web application mockups in Adobe XD
+            and convert them into high-fidelity prototype{" "}
+          </p>
+        </div>
+        <div className={heroStyle.Card}>
+          <FontAwesomeIcon icon={faPaintBrush} size="3x" />
+          <h3>Websites & SPAs</h3>
+          <p>
+            I develop pixel perfect, cross browser compatible, and responsive
+            websites using HTML5, CSS3 and JavaScript. I also develop Single
+            Page Application frontend using React and Angular
+          </p>
+        </div>
+        <div className={heroStyle.Card}>
+          <FontAwesomeIcon icon={faDatabase} size="3x" />
+          <h3>Microservices & Hoisting</h3>
+          <p>
+            I create REST API & Microservices using NodeJS, ExpressJS and
+            MongoDB database. I host application in production using Digital
+            Ocean & Netlify
+          </p>
+        </div>
       </div>
       <div>This is section 2</div>
     </Layout>
