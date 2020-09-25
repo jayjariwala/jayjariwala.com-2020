@@ -2,11 +2,13 @@
 @value largest, small, medium from breakpoints;
 
 .Layout {
+  position: relative;
   padding: 20px;
   background-image: url(../../assets/images/bg.svg);
   background-size: 500px;
   background-repeat: repeat;
   font-size: 1.8rem;
+  z-index: -10;
 }
 
 @media only screen and (max-width: small) {
