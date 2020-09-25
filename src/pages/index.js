@@ -90,7 +90,60 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div>This is section 2</div>
+      <div className={heroStyle.Section2}>
+        <div className={heroStyle.Section2OuterBox}></div>
+        Dolor qui sunt cupiditate aut a vitae. Pariatur quia vitae dolorum ab
+        tenetur magnam mollitia in enim. Ea dolor et labore eius. Doloremque
+        eaque cumque ea quis vel voluptatem voluptas harum. Placeat voluptas
+        voluptas. Impedit provident molestiae velit quae et est iure quo quae.
+        Qui sit et voluptatem sed. Veniam nostrum fuga suscipit. Quasi cum
+        magnam enim earum aliquid ipsam voluptas. Est animi at quaerat quia
+        fugit voluptate. Veniam voluptate eveniet tenetur eum sint quam
+        exercitationem omnis et. A et consequuntur dolores molestiae a
+        consectetur dolorem ut. Id vel aliquid sit placeat. Sed impedit quia.
+        Quo tempore officiis ducimus impedit dicta aut tempore. Eos consequuntur
+        est. Dolor qui sunt cupiditate aut a vitae. Pariatur quia vitae dolorum
+        ab tenetur magnam mollitia in enim. Ea dolor et labore eius. Doloremque
+        eaque cumque ea quis vel voluptatem voluptas harum. Placeat voluptas
+        voluptas. Impedit provident molestiae velit quae et est iure quo quae.
+        Qui sit et voluptatem sed. Veniam nostrum fuga suscipit. Quasi cum
+        magnam enim earum aliquid ipsam voluptas. Est animi at quaerat quia
+        fugit voluptate. Veniam voluptate eveniet tenetur eum sint quam
+        exercitationem omnis et. A et consequuntur dolores molestiae a
+        consectetur dolorem ut. Id vel aliquid sit placeat. Sed impedit quia.
+        Quo tempore officiis ducimus impedit dicta aut tempore. Eos consequuntur
+        est. Dolor qui sunt cupiditate aut a vitae. Pariatur quia vitae dolorum
+        ab tenetur magnam mollitia in enim. Ea dolor et labore eius. Doloremque
+        eaque cumque ea quis vel voluptatem voluptas harum. Placeat voluptas
+        voluptas. Impedit provident molestiae velit quae et est iure quo quae.
+        Qui sit et voluptatem sed. Veniam nostrum fuga suscipit. Quasi cum
+        magnam enim earum aliquid ipsam voluptas. Est animi at quaerat quia
+        fugit voluptate. Veniam voluptate eveniet tenetur eum sint quam
+        exercitationem omnis et. A et consequuntur dolores molestiae a
+        consectetur dolorem ut. Id vel aliquid sit placeat. Sed impedit quia.
+        Quo tempore officiis ducimus impedit dicta aut tempore. Eos consequuntur
+        est. Dolor qui sunt cupiditate aut a vitae. Pariatur quia vitae dolorum
+        ab tenetur magnam mollitia in enim. Ea dolor et labore eius. Doloremque
+        eaque cumque ea quis vel voluptatem voluptas harum. Placeat voluptas
+        voluptas. Impedit provident molestiae velit quae et est iure quo quae.
+        Qui sit et voluptatem sed. Veniam nostrum fuga suscipit. Quasi cum
+        magnam enim earum aliquid ipsam voluptas. Est animi at quaerat quia
+        fugit voluptate. Veniam voluptate eveniet tenetur eum sint quam
+        exercitationem omnis et. A et consequuntur dolores molestiae a
+        consectetur dolorem ut. Id vel aliquid sit placeat. Sed impedit quia.
+        Quo tempore officiis ducimus impedit dicta aut tempore. Eos consequuntur
+        est. Dolor qui sunt cupiditate aut a vitae. Pariatur quia vitae dolorum
+        ab tenetur magnam mollitia in enim. Ea dolor et labore eius. Doloremque
+        eaque cumque ea quis vel voluptatem voluptas harum. Placeat voluptas
+        voluptas. Impedit provident molestiae velit quae et est iure quo quae.
+        Qui sit et voluptatem sed. Veniam nostrum fuga suscipit. Quasi cum
+        magnam enim earum aliquid ipsam voluptas. Est animi at quaerat quia
+        fugit voluptate. Veniam voluptate eveniet tenetur eum sint quam
+        exercitationem omnis et. A et consequuntur dolores molestiae a
+        consectetur dolorem ut. Id vel aliquid sit placeat. Sed impedit quia.
+        Quo tempore officiis ducimus impedit dicta aut tempore. Eos consequuntur
+        est.
+      </div>
     </Layout>
   )
 }

@@ -61,12 +61,13 @@
 
 .Technologies {
   position: relative;
-  top: -23rem;
+  margin-top: -23rem;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
   justify-items: center;
+  z-index: 20;
 }
 
 .Card {
@@ -99,13 +100,29 @@
   margin-top: 2rem;
 }
 
+.Section2 {
+  position: relative;
+  margin-top: 10rem;
+  background-color: var(--white);
+}
+
+.Section2OuterBox {
+  position: absolute;
+  background-color: yellow;
+  z-index: -10;
+  width: 100%;
+  height: 120%;
+  top: -3rem;
+  background-color: var(--purple-dark);
+}
+
 /* Homepage Responsiveness */
 @media only screen and (max-width: largest) {
   .Section1 {
     height: 50rem;
   }
   .Technologies {
-    top: -30rem;
+    top: -5rem;
   }
 }
 
@@ -116,7 +133,7 @@
 
   .Technologies {
     flex-direction: column;
-    top: -10rem;
+    margin-top: -5rem;
   }
 
   .Card {
