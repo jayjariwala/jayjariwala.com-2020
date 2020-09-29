@@ -3,6 +3,7 @@ import { PropTypes } from "prop-types"
 import "./styles/global.css"
 import Styles from "./styles/Layout.module.css"
 import Header from "./Header"
+import Footer from "./Footer"
 
 class Layout extends React.Component {
   render() {
@@ -11,7 +12,7 @@ class Layout extends React.Component {
       <div className={Styles.Layout}>
         <Header />
         {children}
-        <h1>This is footer</h1>
+        <Footer />
       </div>
     )
   }

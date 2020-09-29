@@ -23,7 +23,8 @@ export default function Home() {
           <div className={heroStyle.Introduction}>
             <p className={heroStyle.Hi}>Hey! I'm Jay</p>
             <h1 className={heroStyle.WhoAmI}>
-              I'm a Full Stack JavaScript Developer with passion for Design
+              I'm a Full Stack JavaScript Developer with passion for {""}
+              <span className="highlight">Design</span>
             </h1>
             <p>
               I specialize in Website and Web application development using
@@ -91,58 +92,14 @@ export default function Home() {
         </div>
       </div>
       <div className={heroStyle.Section2}>
-        <div className={heroStyle.Section2OuterBox}></div>
-        Dolor qui sunt cupiditate aut a vitae. Pariatur quia vitae dolorum ab
-        tenetur magnam mollitia in enim. Ea dolor et labore eius. Doloremque
-        eaque cumque ea quis vel voluptatem voluptas harum. Placeat voluptas
-        voluptas. Impedit provident molestiae velit quae et est iure quo quae.
-        Qui sit et voluptatem sed. Veniam nostrum fuga suscipit. Quasi cum
-        magnam enim earum aliquid ipsam voluptas. Est animi at quaerat quia
-        fugit voluptate. Veniam voluptate eveniet tenetur eum sint quam
-        exercitationem omnis et. A et consequuntur dolores molestiae a
-        consectetur dolorem ut. Id vel aliquid sit placeat. Sed impedit quia.
-        Quo tempore officiis ducimus impedit dicta aut tempore. Eos consequuntur
-        est. Dolor qui sunt cupiditate aut a vitae. Pariatur quia vitae dolorum
-        ab tenetur magnam mollitia in enim. Ea dolor et labore eius. Doloremque
-        eaque cumque ea quis vel voluptatem voluptas harum. Placeat voluptas
-        voluptas. Impedit provident molestiae velit quae et est iure quo quae.
-        Qui sit et voluptatem sed. Veniam nostrum fuga suscipit. Quasi cum
-        magnam enim earum aliquid ipsam voluptas. Est animi at quaerat quia
-        fugit voluptate. Veniam voluptate eveniet tenetur eum sint quam
-        exercitationem omnis et. A et consequuntur dolores molestiae a
-        consectetur dolorem ut. Id vel aliquid sit placeat. Sed impedit quia.
-        Quo tempore officiis ducimus impedit dicta aut tempore. Eos consequuntur
-        est. Dolor qui sunt cupiditate aut a vitae. Pariatur quia vitae dolorum
-        ab tenetur magnam mollitia in enim. Ea dolor et labore eius. Doloremque
-        eaque cumque ea quis vel voluptatem voluptas harum. Placeat voluptas
-        voluptas. Impedit provident molestiae velit quae et est iure quo quae.
-        Qui sit et voluptatem sed. Veniam nostrum fuga suscipit. Quasi cum
-        magnam enim earum aliquid ipsam voluptas. Est animi at quaerat quia
-        fugit voluptate. Veniam voluptate eveniet tenetur eum sint quam
-        exercitationem omnis et. A et consequuntur dolores molestiae a
-        consectetur dolorem ut. Id vel aliquid sit placeat. Sed impedit quia.
-        Quo tempore officiis ducimus impedit dicta aut tempore. Eos consequuntur
-        est. Dolor qui sunt cupiditate aut a vitae. Pariatur quia vitae dolorum
-        ab tenetur magnam mollitia in enim. Ea dolor et labore eius. Doloremque
-        eaque cumque ea quis vel voluptatem voluptas harum. Placeat voluptas
-        voluptas. Impedit provident molestiae velit quae et est iure quo quae.
-        Qui sit et voluptatem sed. Veniam nostrum fuga suscipit. Quasi cum
-        magnam enim earum aliquid ipsam voluptas. Est animi at quaerat quia
-        fugit voluptate. Veniam voluptate eveniet tenetur eum sint quam
-        exercitationem omnis et. A et consequuntur dolores molestiae a
-        consectetur dolorem ut. Id vel aliquid sit placeat. Sed impedit quia.
-        Quo tempore officiis ducimus impedit dicta aut tempore. Eos consequuntur
-        est. Dolor qui sunt cupiditate aut a vitae. Pariatur quia vitae dolorum
-        ab tenetur magnam mollitia in enim. Ea dolor et labore eius. Doloremque
-        eaque cumque ea quis vel voluptatem voluptas harum. Placeat voluptas
-        voluptas. Impedit provident molestiae velit quae et est iure quo quae.
-        Qui sit et voluptatem sed. Veniam nostrum fuga suscipit. Quasi cum
-        magnam enim earum aliquid ipsam voluptas. Est animi at quaerat quia
-        fugit voluptate. Veniam voluptate eveniet tenetur eum sint quam
-        exercitationem omnis et. A et consequuntur dolores molestiae a
-        consectetur dolorem ut. Id vel aliquid sit placeat. Sed impedit quia.
-        Quo tempore officiis ducimus impedit dicta aut tempore. Eos consequuntur
-        est.
+        <div className={heroStyle.Section2OuterBox1}></div>
+        <div className={heroStyle.Section2OuterBox2}></div>
+        <div className={heroStyle.Work}>
+          <h2 className={`text-center`}>
+            <span className="highlight">Featured Work</span>
+          </h2>
+          <p>Ut vitae laudantium rerum maiores.</p>
+        </div>
       </div>
     </Layout>
   )
