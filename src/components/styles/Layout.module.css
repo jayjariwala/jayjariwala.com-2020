@@ -2,7 +2,6 @@
 @value largest, small, medium from breakpoints;
 
 .Layout {
-  position: relative;
   padding: 20px;
   background-image: url(../../assets/images/bg.svg);
   background-size: 500px;

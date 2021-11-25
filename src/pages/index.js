@@ -21,11 +21,12 @@ export default function Home() {
         <div className={`${containerStyle.Medium} text-center`}>
           <img className={heroStyle.Avatar} src={Avatar} width="160px" />
           <div className={heroStyle.Introduction}>
-            <p className={heroStyle.Hi}>Hey! I'm Jay</p>
+            <p className={heroStyle.Hi}>Hello! Thanks for visiting this website</p>
             <h1 className={heroStyle.WhoAmI}>
-              I'm a Full Stack JavaScript Developer with passion for {""}
+              My name is Jay. I'm a Full Stack JavaScript Developer with passion for {""}
               <span className="highlight">Design</span>
             </h1>
+            <div className={heroStyle.SubIntro}>
             <p>
               I specialize in Website and Web application development using
               HTML5, CSS3, JavaScript, React JS, Angular, NodeJS and MongoDB. I
@@ -39,7 +40,8 @@ export default function Home() {
               Skating. I like to roam around in nature, working out at the gym,
               and taking pictures using my DSLR.
             </p>
-            <div className={marginStyle.M3}>
+            </div>
+            <div className={marginStyle.M6}>
               <button
                 className={`${Buttons.Btn} ${Buttons.Btn_primary} ${Buttons.Btn_lg} `}
               >
