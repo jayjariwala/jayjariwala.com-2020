@@ -5,6 +5,7 @@ import {
   faPaintBrush,
   faDatabase,
 } from "@fortawesome/free-solid-svg-icons"
+import { Grid } from "@material-ui/core"
 import Layout from "../components/Layout"
 import heroStyle from "../components/styles/Hero.module.css"
 import containerStyle from "../components/styles/Container.module.css"
@@ -89,16 +90,6 @@ export default function Home() {
             MongoDB database. I host application in production using Digital
             Ocean & Netlify
           </p>
-        </div>
-      </div>
-      <div className={heroStyle.Section2}>
-        <div className={heroStyle.Section2OuterBox1}></div>
-        <div className={heroStyle.Section2OuterBox2}></div>
-        <div className={heroStyle.Work}>
-          <h2 className={`text-center`}>
-            <span className="highlight">Featured Work</span>
-          </h2>
-          <p>Ut vitae laudantium rerum maiores.</p>
         </div>
       </div>
     </Layout>
